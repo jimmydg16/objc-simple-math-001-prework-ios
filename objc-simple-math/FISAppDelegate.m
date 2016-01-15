@@ -57,8 +57,8 @@
     NSLog(@"u: %lu", u);
     // Hiding warnings: u = -1;
     // Hiding warnings: NSLog(@"u: %lu", u);
-    // Hiding warnings: u = 8 - 10;
-    // Hiding warnings: NSLog(@"u: %lu", u);
+    // Hiding warnings: // Hiding warnings: u = 8 - 10;
+    NSLog(@"u: %lu", u);
     
     // D: Capturing and Printing Comparisons
     BOOL threeIsEqualToThree = 3 == 3;
